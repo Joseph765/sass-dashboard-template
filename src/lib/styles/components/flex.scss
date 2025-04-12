@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  gap: var(--space-m);
+  justify-content: start;
+
+  &.is-direction-column {
+    flex-direction: column;
+  }
+
+  &.is-align-center {
+    align-items: center;
+  }
+}

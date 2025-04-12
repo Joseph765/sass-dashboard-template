@@ -1,0 +1,11 @@
+.button {
+  font-family: var(--font-family);
+  font-size: var(--font-size-m);
+  letter-spacing: var(--letter-spacing-m);
+  padding-inline: var(--space-m);
+  cursor: pointer;
+  height: 32px;
+  background: var(--color-accent);
+  color: var(--color-text-contrast);
+  border: none;
+}
